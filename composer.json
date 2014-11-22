@@ -1,0 +1,37 @@
+{
+    "name": "pythagor/yii2-mongolog",
+    "description": "Yii2 Module for Web Application user's activity log at MongoDB",
+    "keywords": [
+        "yii2",
+        "logging",
+        "MongoDB",
+        "module"
+    ],
+    "homepage": "https://github.com/pythagor/yii2-mongolog",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrei Chugunov",
+            "email": "admin@pythagor.com",
+            "homepage": "http://pythagor.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/pythagor/yii2-mongolog/issues?state=open",
+        "source": "https://github.com/pythagor/yii2-mongolog"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2-mongodb": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pythagor\\mongolog\\": ""
+        }
+    }
+}
